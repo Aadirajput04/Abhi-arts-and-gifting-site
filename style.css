@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.side-padding {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+
+.page-width {
+    max-width: 2000px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: #B98A34;
+}
+
+h1 {
+    color: #FFF;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+h2 {
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+h3 {
+
+    color: var(--Primery, #B98A34);
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+p {
+    color: #BFBFBF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================navbar css starts here========================================================= */
+
+.contact-btn {
+    color: #FFF;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: var(--Primery, #B98A34);
+    padding: 13px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.active-nav {
+    color: #DD7F00 !important;
+
+
+}
+
+header {
+    padding: 15px 0;
+    background-color: transparent;
+border-bottom: 1px solid #3A3A3A;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    justify-content: space-around;
+}
+
+ul a {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: #000;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    background-color: #161616;
+    top: 130px;
+    left: 0;
+    height: calc(100vh - 147px);
+    width: 100%;
+}
+
+.mobile-menu li {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+    header nav {
+        display: none;
+    }
+
+    header {
+        padding: 17px 0;
+
+
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+}
+
+
+.red-line{
+    padding: 12px 0;
+    display: grid;
+    place-items: center;
+    background-color: #CD2122;
+}
+.red-line h5{
+    
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* ===============================================================navbarv css ends here================================================ */
+
+
+/* ===========================================================hero section starts here============================================ */
+
+
+
+.main-hero-bg {
+
+    background: url(./img/hero-bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.hero-content {
+    padding-top: 177px;
+    padding-bottom: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+.hero-content a {
+    color: #FFF;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: var(--Primery, #B98A34);
+    padding: 13px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    max-width: 204px;
+    margin-top: 10px;
+}
+
+.hero-content p {
+    color: #BFBFBF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.hero-content hr{
+    width: 125px;
+    height: 1px;
+    background-color: #B98A34;
+
+}
