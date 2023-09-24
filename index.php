@@ -33,17 +33,30 @@
                   </svg></a>
         </div>
 
-
-
-
-
-
-
-
-
     </section>
+    ?php
+    
+    include "about-section.php";
+
+    ?>
 
 
+
+
+
+
+
+
+
+
+
+
+
+    <?php
+    
+    include "contact-section.php";
+
+    ?>
 
 
     <?php

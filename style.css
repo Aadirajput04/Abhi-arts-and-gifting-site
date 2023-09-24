@@ -241,6 +241,7 @@ ul li:hover {
     background: url(./img/hero-bg1.png);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 120px;
 
 }
 
@@ -324,7 +325,7 @@ footer h4 {
     font-family: 'Outfit', sans-serif;
     font-size: 24px;
     font-style: normal;
-margin-top: 25px;
+    margin-top: 25px;
     font-weight: 600;
     line-height: normal;
 }
@@ -386,4 +387,102 @@ margin-top: 25px;
     align-items: center;
     gap: 45px;
     display: flex;
+}
+
+/* \=====================================================contact section starts here============================================ */
+
+.contact-sec-box {
+    background: #232323;
+    width: 100%;
+    position: relative;
+    display: grid;
+    padding-left: 240px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 120px;
+}
+
+.contact-sec-box .light {
+    position: absolute;
+    right: 25%;
+    /* bottom: -480px; */
+    z-index: -1;
+    top: 25%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-sec-box .light-2 {
+    position: absolute;
+    right: 0;
+    /* bottom: -480px; */
+    z-index: -1;
+    top: -20px;
+}
+
+.contact-form hr {
+    width: 125px;
+}
+
+.contact-sec-box .right-box-img img {
+    width: 920px;
+    height: auto;
+}
+
+.left-box-details {
+    padding-right: 115px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+.form-group input[type="text"],
+.form-group textarea {
+    padding: 14px 15px;
+    width: 100%;
+    border: 1px solid #4B4B4B;
+    background: #232323;
+    color: #BABABA;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: transparent;
+    color: #B98A34;
+    padding: 13px 30px;
+    border: 1px solid #B98A34;
+margin-top: 10px;
+    cursor: pointer;
 }
