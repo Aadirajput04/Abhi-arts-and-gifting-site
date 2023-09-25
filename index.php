@@ -34,7 +34,7 @@
         </div>
 
     </section>
-    ?php
+    <?php
     
     include "about-section.php";
 
