@@ -51,6 +51,11 @@
 
 
 
+    <?php
+    
+    include "blog-section.php";
+
+    ?>
 
     <?php
     
