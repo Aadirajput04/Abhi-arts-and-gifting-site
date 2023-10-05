@@ -19,11 +19,11 @@
 
 
 
-        <?php
+                 <?php
     
-    include "header.php";
+             include "header.php";
 
-    ?>
+             ?>
 
 
 
@@ -40,9 +40,66 @@
 
 
 
+    <?php
+    
+    include "about-section.php";
+
+    ?>
+
+    <section class="about-main-pages">
+        <img class="eclips-about" src="./img/Ellipse 6.png" alt="">
 
 
-sec
+
+        <div class="mission-box side-padding">
+
+            <div class="left-content-box-mission">
+
+                <h1><img src="./img/mission-icon.png" alt=""> Our <span> Mission</span></h1>
+                <p>Abhi Arts Giftland passionately strives to be the largest premium gifting leader with handmade
+                    crafts, gifts, cakes, and weddings being the core verticals driven by a people-first approach and
+                    innovation in all spheres of business.</p>
+                <p>We It Unique Birthday Gifts for Girlfriend, Gifts for New Born Baby Parents, Baby Shower Gifts,
+                    Valentine’s Day Gifts for Boyfriend, for Your Office Mate, Father’s Day Gifts, Unique Housewarming
+                    Gifts for Your Newly Moved in Neighbor, Corporate Gifts, and Unique Gifts for Your Best Friend at
+                    Abhiartsgiftland.com.</p>
+
+            </div>
+            <div class="right-img-mission">
+                <img src="./img/mission.png" alt="">
+            </div>
+
+
+
+        </div>
+
+
+        <div class="vission-box side-padding">
+
+            <div class="left-content-box-vission">
+
+                <h1><img src="./img/vission-icon.png" alt=""> Our <span> vission</span></h1>
+                <p>Abhi Arts Giftland passionately strives to be the largest premium gifting leader with handmade
+                    crafts, gifts, cakes, and weddings being the core verticals driven by a people-first approach and
+                    innovation in all spheres of business.</p>
+                <p>We It Unique Birthday Gifts for Girlfriend, Gifts for New Born Baby Parents, Baby Shower Gifts,
+                    Valentine’s Day Gifts for Boyfriend, for Your Office Mate, Father’s Day Gifts, Unique Housewarming
+                    Gifts for Your Newly Moved in Neighbor, Corporate Gifts, and Unique Gifts for Your Best Friend at
+                    Abhiartsgiftland.com.</p>
+
+            </div>
+            <div class="right-img-vission">
+                <img src="./img/vission.png" alt="">
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </section>
 
 
 
