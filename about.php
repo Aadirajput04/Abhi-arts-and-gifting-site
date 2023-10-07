@@ -19,7 +19,7 @@
 
 
 
-                 <?php
+        <?php
     
              include "header.php";
 
@@ -66,7 +66,7 @@
 
             </div>
             <div class="right-img-mission">
-                <img src="./img/mission.png" alt="">
+                <img src="./img/Group 2mission.png" alt="">
             </div>
 
 
@@ -89,7 +89,7 @@
 
             </div>
             <div class="right-img-vission">
-                <img src="./img/vission.png" alt="">
+                <img src="./img/Group 1vission.png" alt="">
             </div>
 
 
