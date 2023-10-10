@@ -17,11 +17,13 @@ function isCurrentPage($pageName)
             </li>
             <li><a <?php if (isCurrentPage('about.php')) echo 'class="active-nav"' ; ?> href="./about.php" >About</a>
             </li>
-            <li><a <?php if (isCurrentPage('gifting-product.php')) echo 'class="active-nav"' ; ?> href="./gifting-product.php" >
+            <li><a <?php if (isCurrentPage('gifting-product.php')) echo 'class="active-nav"' ; ?>
+                    href="./gifting-product.php" >
                     Gifting Products</a></li>
-            <li><a <?php if (isCurrentPage('letest-product.php')) echo 'class="active-nav"' ; ?> href="./letest-product.php" >
+            <li><a <?php if (isCurrentPage('letest-product.php')) echo 'class="active-nav"' ; ?>
+                    href="./letest-product.php" >
                     Letest Products</a></li>
-            
+
             <li><a <?php if (isCurrentPage('blog.php')) echo 'class="active-nav"' ; ?> href="./blog.php" >
                     Blog</a></li>
 
@@ -54,16 +56,19 @@ function isCurrentPage($pageName)
             </li>
             <li><a <?php if (isCurrentPage('about.php')) echo 'class="active-nav"' ; ?> href="./about.php" >About</a>
             </li>
-            <li><a <?php if (isCurrentPage('products.php')) echo 'class="active-nav"' ; ?> href="./products.php" >
+            <li><a <?php if (isCurrentPage('gifting-product.php')) echo 'class="active-nav"' ; ?>
+                    href="./gifting-product.php" >
                     Gifting Products</a></li>
-            <li><a <?php if (isCurrentPage('products.php')) echo 'class="active-nav"' ; ?> href="./products.php" >
+            <li><a <?php if (isCurrentPage('letest-product.php')) echo 'class="active-nav"' ; ?>
+                    href="./letest-product.php" >
                     Letest Products</a></li>
-            
+
             <li><a <?php if (isCurrentPage('blog.php')) echo 'class="active-nav"' ; ?> href="./blog.php" >
                     Blog</a></li>
 
             <li><a <?php if (isCurrentPage('contact.php')) echo 'class="active-nav"' ; ?> href="./contact.php" >
                     Contact Us</a></li>
+
         </ul>
     </div>
 </header>
