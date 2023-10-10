@@ -2582,6 +2582,7 @@ form {
         align-items: center;
         gap: 15px;
     }
+
     .about-section a {
         padding: 11px 14px;
         color: var(--Primery, #B98A34);
@@ -2612,12 +2613,17 @@ form {
         font-weight: 600;
         line-height: normal;
     }
+
     .blog-section {
         display: flex;
         flex-direction: column;
-        gap: 60px;
+        gap: 15px;
         margin-bottom: 35px;
         position: relative;
     }
 
+    .head-lable .heading-text {
+        padding-top: 70px;
+        padding-bottom: 69px;
+    }
 }
